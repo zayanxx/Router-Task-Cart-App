@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CartProvider } from './contexts/CartContext';
 import Navbar from './components/Navbar';
-import Home from './pageS/Home';
-import CartPage from './pageS/CartPage';
+import Home from './pages/Home';
+import CartPage from './pages/CartPage';
 
 function App() {
   return (
